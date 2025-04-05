@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_06dda8abc7794f82b664dff3ebbb50af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_06dda8abc7794f82b664dff3ebbb50af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_06dda8abc7794f82b664dff3ebbb50af = L.map(
+                "map_06dda8abc7794f82b664dff3ebbb50af",
+                {
+                    center: [16.0, 108.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b5e03c50b5badc0abd51ee390916fda1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+            var marker_75d4a99fbd7d0f623486730a6e40ff19 = L.marker(
+                [21.0285, 105.8542],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_7e80046bf031493d56729fc684221d94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c74e4715675aa29b95f469946fae96d = $(`<div id="html_9c74e4715675aa29b95f469946fae96d" style="width: 100.0%; height: 100.0%;">Hanoi</div>`)[0];
+            popup_7e80046bf031493d56729fc684221d94.setContent(html_9c74e4715675aa29b95f469946fae96d);
+        
+
+        marker_75d4a99fbd7d0f623486730a6e40ff19.bindPopup(popup_7e80046bf031493d56729fc684221d94)
+        ;
+
+        
+    
+    
+            var marker_c2170cbbf94f745e3d7cec4557f1f555 = L.marker(
+                [11.9064, 109.1593],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_171f53fab0c0dfae83a93f731d3822ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4482d67f2237bf16d2c3de8aaa430892 = $(`<div id="html_4482d67f2237bf16d2c3de8aaa430892" style="width: 100.0%; height: 100.0%;">Cam Ranh (inicio costa sur)</div>`)[0];
+            popup_171f53fab0c0dfae83a93f731d3822ff.setContent(html_4482d67f2237bf16d2c3de8aaa430892);
+        
+
+        marker_c2170cbbf94f745e3d7cec4557f1f555.bindPopup(popup_171f53fab0c0dfae83a93f731d3822ff)
+        ;
+
+        
+    
+    
+            var marker_6bdd4308a3ef1e4dbd28305a44260c1d = L.marker(
+                [11.7333, 109.1333],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_af1bac8682b3fa925c79b664b3f451e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2a949650203e4da0fa9ebd83be94d15 = $(`<div id="html_c2a949650203e4da0fa9ebd83be94d15" style="width: 100.0%; height: 100.0%;">Bình Lập</div>`)[0];
+            popup_af1bac8682b3fa925c79b664b3f451e5.setContent(html_c2a949650203e4da0fa9ebd83be94d15);
+        
+
+        marker_6bdd4308a3ef1e4dbd28305a44260c1d.bindPopup(popup_af1bac8682b3fa925c79b664b3f451e5)
+        ;
+
+        
+    
+    
+            var marker_202a4addb7654943c09347fb564eaae1 = L.marker(
+                [11.775, 109.1833],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_a5dfb5e581c3d7cbe1937b98e303030c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b521aef9250ce1817587976fabecf96 = $(`<div id="html_2b521aef9250ce1817587976fabecf96" style="width: 100.0%; height: 100.0%;">Vĩnh Hy</div>`)[0];
+            popup_a5dfb5e581c3d7cbe1937b98e303030c.setContent(html_2b521aef9250ce1817587976fabecf96);
+        
+
+        marker_202a4addb7654943c09347fb564eaae1.bindPopup(popup_a5dfb5e581c3d7cbe1937b98e303030c)
+        ;
+
+        
+    
+    
+            var marker_cf64d2ca5a41304c98d3f4f878975419 = L.marker(
+                [10.9333, 108.2333],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_8dfa8bc49ad13bb954cbbd2a7d3eeb7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63906ae1580de7f472287a57e61aeec0 = $(`<div id="html_63906ae1580de7f472287a57e61aeec0" style="width: 100.0%; height: 100.0%;">Mũi Né</div>`)[0];
+            popup_8dfa8bc49ad13bb954cbbd2a7d3eeb7e.setContent(html_63906ae1580de7f472287a57e61aeec0);
+        
+
+        marker_cf64d2ca5a41304c98d3f4f878975419.bindPopup(popup_8dfa8bc49ad13bb954cbbd2a7d3eeb7e)
+        ;
+
+        
+    
+    
+            var marker_34bed4fe24b8c234dc6cde744a827561 = L.marker(
+                [10.7629, 106.6822],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_246e4790073436dbf2848583711713d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5f2f63eeca2acd91e42e1f73f7fb705 = $(`<div id="html_e5f2f63eeca2acd91e42e1f73f7fb705" style="width: 100.0%; height: 100.0%;">Ho Chi Minh City</div>`)[0];
+            popup_246e4790073436dbf2848583711713d5.setContent(html_e5f2f63eeca2acd91e42e1f73f7fb705);
+        
+
+        marker_34bed4fe24b8c234dc6cde744a827561.bindPopup(popup_246e4790073436dbf2848583711713d5)
+        ;
+
+        
+    
+    
+            var marker_f52996020810d11ae9adf484025a2a7a = L.marker(
+                [11.5564, 104.9282],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_07a8fe03cf6bfec0f3cd6814fe0ca3aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7594fd98bfda0e9cbe05835067640bc0 = $(`<div id="html_7594fd98bfda0e9cbe05835067640bc0" style="width: 100.0%; height: 100.0%;">Phnom Penh</div>`)[0];
+            popup_07a8fe03cf6bfec0f3cd6814fe0ca3aa.setContent(html_7594fd98bfda0e9cbe05835067640bc0);
+        
+
+        marker_f52996020810d11ae9adf484025a2a7a.bindPopup(popup_07a8fe03cf6bfec0f3cd6814fe0ca3aa)
+        ;
+
+        
+    
+    
+            var marker_0e6842eb8ccc2a2997d67f2973a7c064 = L.marker(
+                [10.7106, 103.2394],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_c21119a9a694bff3c10defc38660bc4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6f4a54bae99542a9f0ab47f45268b5b = $(`<div id="html_a6f4a54bae99542a9f0ab47f45268b5b" style="width: 100.0%; height: 100.0%;">Koh Rong</div>`)[0];
+            popup_c21119a9a694bff3c10defc38660bc4e.setContent(html_a6f4a54bae99542a9f0ab47f45268b5b);
+        
+
+        marker_0e6842eb8ccc2a2997d67f2973a7c064.bindPopup(popup_c21119a9a694bff3c10defc38660bc4e)
+        ;
+
+        
+    
+    
+            var marker_f554ddf0e12161a5b3ae0e5ffe3ed50b = L.marker(
+                [13.3671, 103.8448],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_4c0f619ced4deae9ccabcd83ec7a5f45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4da183096b06f99c3041fdf14257cd5 = $(`<div id="html_b4da183096b06f99c3041fdf14257cd5" style="width: 100.0%; height: 100.0%;">Siem Reap (Angkor Wat)</div>`)[0];
+            popup_4c0f619ced4deae9ccabcd83ec7a5f45.setContent(html_b4da183096b06f99c3041fdf14257cd5);
+        
+
+        marker_f554ddf0e12161a5b3ae0e5ffe3ed50b.bindPopup(popup_4c0f619ced4deae9ccabcd83ec7a5f45)
+        ;
+
+        
+    
+    
+            var marker_043e9e2b4cfc929953cc4a83fc7544d4 = L.marker(
+                [10.3157, 123.8854],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_7b384bf630b9d320d86118a1be66bb5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a17e9e6003ecc7aebfaf27b68ebb0e3 = $(`<div id="html_0a17e9e6003ecc7aebfaf27b68ebb0e3" style="width: 100.0%; height: 100.0%;">Cebu</div>`)[0];
+            popup_7b384bf630b9d320d86118a1be66bb5d.setContent(html_0a17e9e6003ecc7aebfaf27b68ebb0e3);
+        
+
+        marker_043e9e2b4cfc929953cc4a83fc7544d4.bindPopup(popup_7b384bf630b9d320d86118a1be66bb5d)
+        ;
+
+        
+    
+    
+            var marker_863cb9ebbb56d9fd22db4d6992370a54 = L.marker(
+                [11.2028, 119.3985],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_162acbafb2b8f38458c846802a082d06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4762e749bbaaae00bb15b82afe0353cc = $(`<div id="html_4762e749bbaaae00bb15b82afe0353cc" style="width: 100.0%; height: 100.0%;">El Nido (Palawan)</div>`)[0];
+            popup_162acbafb2b8f38458c846802a082d06.setContent(html_4762e749bbaaae00bb15b82afe0353cc);
+        
+
+        marker_863cb9ebbb56d9fd22db4d6992370a54.bindPopup(popup_162acbafb2b8f38458c846802a082d06)
+        ;
+
+        
+    
+    
+            var marker_0b421da09e597c1762cba20eeb6c1596 = L.marker(
+                [9.8482, 126.0456],
+                {}
+            ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+    
+        var popup_1e607381f67bdd38f9fb4843423aafe2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a877ba328cf48100dd492f4896fdb4cc = $(`<div id="html_a877ba328cf48100dd492f4896fdb4cc" style="width: 100.0%; height: 100.0%;">Siargao</div>`)[0];
+            popup_1e607381f67bdd38f9fb4843423aafe2.setContent(html_a877ba328cf48100dd492f4896fdb4cc);
+        
+
+        marker_0b421da09e597c1762cba20eeb6c1596.bindPopup(popup_1e607381f67bdd38f9fb4843423aafe2)
+        ;
+
+        
+    
+    
+            ant_path_e3da6cc177d70190bf0deee29df720e7 = L.polyline.antPath(
+              [[21.0285, 105.8542], [11.9064, 109.1593], [11.7333, 109.1333], [11.775, 109.1833], [10.9333, 108.2333], [10.7629, 106.6822], [11.5564, 104.9282], [10.7106, 103.2394], [13.3671, 103.8448], [10.3157, 123.8854], [11.2028, 119.3985], [9.8482, 126.0456]],
+              {"bubblingMouseEvents": true, "color": "blue", "dashArray": [10, 20], "dashOffset": null, "delay": 400, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "#FFFFFF", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+        ).addTo(map_06dda8abc7794f82b664dff3ebbb50af);
+        
+</script>
+</html>
